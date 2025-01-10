@@ -25,3 +25,21 @@ To set up the project locally, follow these steps:
     ```bash
    pip install -r requirements.txt
    ```
+## Dataset
+The project uses the IMDB Movie Review Dataset, which contains 25,000 reviews for training and 25,000 for testing. The dataset is preprocessed to convert the text into a numerical format suitable for input to the RNN model.
+
+## Model Architecture
+The model uses an Embedding Layer for text representation, followed by a SimpleRNN layer to capture sequential dependencies in the review data. Finally, a Dense output layer predicts the sentiment (positive or negative) of each review.
+
+## Contributing
+Feel free to open issues or submit pull requests if you'd like to contribute to improving this project!
+
+### Key Sections Explained:
+- **Overview**: Brief explanation of the project and its goals.
+- **Features**: Highlights the key functionalities of the project.
+- **Installation**: Step-by-step guide for setting up the project.
+- **Dataset**: Information about the dataset being used.
+- **Model Architecture**: A short explanation of the neural network layers used.
+- **Contributing**: Encourages others to contribute to the project.
+
+This README provides a clear introduction to the project and how others can use or contrib
